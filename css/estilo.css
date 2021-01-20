@@ -1,0 +1,26 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.centralizado,
+.opcao-votacao {
+  text-align: center;
+}
+
+.opcao-votacao {
+  border: 1px solid #ccc;
+  height: 200px;
+  font-size: 36px;
+  line-height: 190px;
+  cursor: pointer;
+}
+
+.opcao-votacao:hover {
+  box-shadow: 3px 15px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: 200ms;
+}
+
+.escondido {
+  display: none;
+}
